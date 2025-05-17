@@ -1,6 +1,11 @@
 extends Object
 class_name DigitsUtility
 
+## intを桁区切り
+static func format_int_with_commas(number: int) -> String:
+	var formated = format_number_text_with_commas(str(number))
+	return formated
+
 ## floatを桁区切り
 static func format_float_with_commas(number: float) -> String:
 	var formated = format_number_text_with_commas(str(number))
