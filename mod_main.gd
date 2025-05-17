@@ -12,17 +12,7 @@ func _init() -> void :
 	mod_dir_path = ModLoaderMod.get_unpacked_dir().path_join(MOD_DIR)
 	extensions_dir_path = mod_dir_path.path_join("extensions")
 	
-	#install_global_script()
 	install_script_extensions()
-
-## クラスの登録
-## なぜか機能しない
-func install_global_script() -> void :
-	var scripts = [
-		mod_dir_path.path_join("digits_utility.gd")
-	]
-	
-	ModLoaderMod.register_global_classes_from_array(scripts)
 
 ## スクリプト拡張の登録
 func install_script_extensions() -> void :
