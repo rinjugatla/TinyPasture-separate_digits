@@ -20,6 +20,7 @@ func install_script_extensions() -> void :
 		"Scene/UI/PopupUI/UIShop/decorations/ui_shop_deco_normal.gd",
 		"Scene/UI/PopupUI/UIShop/ui_shop_pack_item.gd",
 		"Scene/UI/PopupUI/UIFarm/ui_farm_animal_detail.gd",
+		"Scene/UI/PopupUI/UIFarm/ui_farm.gd",
 	]
 		
 	for script in scripts:
