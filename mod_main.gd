@@ -26,6 +26,7 @@ func install_script_extensions() -> void :
 		"Scene/UI/PopupUI/UIFarm/animal_box/ui_upgrade_tip.gd", # 牧場動物拡張枠購入
 		"Scene/UI/PopupUI/UIShop/ui_shop_page_facility_one.gd", # 施設購入
 		"Scene/UI/PopupUI/UIShop/baby_creater.gd", # 神秘の草カーテン 施設購入を継承 
+		"Scene/UI/PopupUI/UICollection/hover_tip/wd_collection_tip.gd", # 動物コレクションの動物ホバーで表示される飼育数
 	]
 		
 	for script in scripts:
