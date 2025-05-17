@@ -18,6 +18,7 @@ func _init() -> void :
 func install_script_extensions() -> void :
 	var scripts = [
 		"Scene/UI/PopupUI/UIShop/decorations/ui_shop_deco_normal.gd", # 小物購入
+		"Scene/UI/PopupUI/UIShop/decorations/ui_shop_deco_bg.gd", # 背景購入
 		"Scene/UI/PopupUI/UIShop/ui_shop_pack_item.gd", # 動物購入
 		"Scene/UI/PopupUI/UIFarm/ui_farm_animal_detail.gd", # 牧場動物詳細
 		"Scene/UI/PopupUI/UIFarm/ui_farm.gd", # 牧場一覧
