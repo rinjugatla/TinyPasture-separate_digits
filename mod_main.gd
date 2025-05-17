@@ -17,10 +17,10 @@ func _init() -> void :
 ## スクリプト拡張の登録
 func install_script_extensions() -> void :
 	var scripts = [
-		"Scene/UI/PopupUI/UIShop/decorations/ui_shop_deco_normal.gd",
-		"Scene/UI/PopupUI/UIShop/ui_shop_pack_item.gd",
-		"Scene/UI/PopupUI/UIFarm/ui_farm_animal_detail.gd",
-		"Scene/UI/PopupUI/UIFarm/ui_farm.gd",
+		"Scene/UI/PopupUI/UIShop/decorations/ui_shop_deco_normal.gd", # 小物購入
+		"Scene/UI/PopupUI/UIShop/ui_shop_pack_item.gd", # 動物購入
+		"Scene/UI/PopupUI/UIFarm/ui_farm_animal_detail.gd", # 牧場動物詳細
+		"Scene/UI/PopupUI/UIFarm/ui_farm.gd", # 牧場一覧
 		"Scene/UI/PopupUI/UIShop/ui_shop_page_facility_one.gd",
 	]
 		
