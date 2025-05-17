@@ -3,18 +3,14 @@ class_name DigitsUtility
 
 ## floatを桁区切り
 static func format_float_with_commas(number: float) -> String:
-	var number_str = str(number)
-	var length = number_str.length()
-	while length > 3:
-		number_str = number_str.insert(length - 3, ",")
-		length -= 3
-	return number_str
+	var formated = format_number_text_with_commas(str(number))
+	return formated
 
 ## 桁区切りされていない数値を桁区切り
 static func format_number_text_with_commas(number_text: String) -> String:
-	var number_str = str(number_text)
-	var length = number_str.length()
+	var formated = str(number_text)
+	var length = formated.length()
 	while length > 3:
-		number_str = number_str.insert(length - 3, ",")
+		formated = formated.insert(length - 3, ",")
 		length -= 3
-	return number_str
+	return formated
