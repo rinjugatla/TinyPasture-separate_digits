@@ -24,6 +24,7 @@ func install_script_extensions() -> void :
 		"Scene/UI/PopupUI/UIFarm/ui_farm.gd", # 牧場一覧
 		"Scene/UI/PopupUI/UIShop/ui_shop_opened_pack.gd", # 動物購入後受け入れ確認画面
 		"Scene/UI/PopupUI/UIShop/ui_shop_page_facility_one.gd",
+		"Scene/UI/PopupUI/UIFarm/animal_box/ui_upgrade_tip.gd", # 牧場動物拡張枠購入
 	]
 		
 	for script in scripts:
