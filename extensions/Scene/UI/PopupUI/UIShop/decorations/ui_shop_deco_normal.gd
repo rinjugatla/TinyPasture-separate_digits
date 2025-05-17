@@ -4,4 +4,4 @@ const DigitsUtility = preload("res://mods-unpacked/rin_jugatla-separate_digits/d
 func _ready() -> void :
 	super()
 	
-	txt_price.text = DigitsUtility.format_float_with_commas(item_price)
+	txt_price.text = DigitsUtility.format_number_text_with_commas(txt_price.text)
