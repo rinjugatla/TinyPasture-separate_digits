@@ -6,21 +6,14 @@
 
 ## MODの導入
 
-~~Steamワークショップから導入します。~~
-
-Mod uploaderが起動できないのでワークショップに公開できませんでした。
-情報をお持ちの方はGitHubかSteamか何でも大丈夫なので連絡をください。
-
-ツールを起動できない状況については[Steamのワークショップ掲示板](https://steamcommunity.com/workshop/discussions/18446744073709551615/601904634461738790/?appid=3167550)に投稿しました。
+[Steamワークショップ](https://steamcommunity.com/sharedfiles/filedetails/?id=3484179926)から導入します。
 
 ## MODの機能
 
 ゲーム内の数値を3桁区切りで表示するよう変更します。
 
-### MOD適用前
+![image](https://github.com/user-attachments/assets/0fa7bdcc-2582-4da0-a776-73f9ae31f2eb)
 
-![image](https://github.com/user-attachments/assets/bda0447f-e4eb-46cc-8294-a017195718d4)
+## Moddingの手引き
 
-### MOD適用後
-
-![image](https://github.com/user-attachments/assets/1b685465-3733-4072-b083-1a42b88c5b33)
+[Godot Modding 入門](https://zenn.dev/rinjugatla/articles/92907e2c033c2f)
