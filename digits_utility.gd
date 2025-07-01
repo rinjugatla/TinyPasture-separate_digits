@@ -1,5 +1,4 @@
 extends Object
-class_name DigitsUtility
 
 ## intを桁区切り
 static func format_int_with_commas(number: int) -> String:
